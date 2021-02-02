@@ -1,0 +1,44 @@
+.container-fluid{
+  font-weight: bold;
+  align-items: center;
+  width: 100%;
+  margin-left: 20px;
+}
+body{
+  background: url("https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408-1024x683.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+img{
+  height: 50px;
+  width: 50px;
+}
+@media only screen and (max-width:980px){
+  .container-fluid{
+    width: 100%;
+  }
+}
+.container-a{
+  background:green;
+  background-repeat: no-repeat;
+  color: tomato;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.smoothscroll{
+  margin-left: 30px;
+  margin-right:-200px;
+}
+.smoothscroll:hover{
+  background-color: pink;
+}
+.container-c{
+background: ur("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKIfXCfiXdIBgh8a_mkmAS_VG_JJ01JmV2w&usqp=CAU" );
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
